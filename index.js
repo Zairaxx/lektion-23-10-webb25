@@ -20,3 +20,20 @@ allBtns.forEach(btn => {
         h2.style.color = "lightgreen";
     })
 })
+
+//Radio buttions
+
+let filterBtn = document.querySelector("#filter");
+
+
+btn.addEventListener("click", () => {
+    //Hur vi hittar en vald radio-button 
+    let choice = document.querySelector("[name='color']:checked")
+    console.log("Vald färg", choice.value);
+
+    //Hitta samtliga valda checkboxar
+   let allCheckedBoxes = document.querySelectorAll("[name='brands']:checked")
+   //Skriv ut samtliga valda värden 
+   allCheckedBoxes.forEach(checkbox => console.log("Vald märke:", checkbox.value))
+
+})
