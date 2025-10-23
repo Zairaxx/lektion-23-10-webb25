@@ -1,12 +1,12 @@
 const greetBtn = document.querySelector("#greetBtn");
-
+const greeting = document.querySelector("#greeting");
 const nameInput = document.querySelector("#name");
 
 greetBtn.addEventListener("click", (event) => {
     let h2 = document.createElement("h2");
     h2.innerText = "Welcome " + nameInput.value;
 
-    document.body.append(h2);
+    greeting.append(h2);
 
 })
 
