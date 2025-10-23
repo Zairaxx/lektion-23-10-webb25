@@ -34,7 +34,18 @@ let multiBtn = document.querySelector("#multiply")
 let answer = document.querySelector("#answer");
 
 const calculate = (operator) => {
-    //Alternativ 2
+
+    //Alternativ 1
+
+    if(operator === "+"){
+        answer.innerText = Number(number1.value) + Number(number2.value)
+    } else if (operator === "-"){
+        answer.innerText = Number(number1.value) - Number(number2.value)
+    } else if (operator === "*"){
+        answer.innerText = Number(number1.value) * Number(number2.value)
+    }
+
+    //Alternativ 2 - Läs på om Javascript eval-method för att förstå denna
     answer.innerText = eval(`${number1.value}${operator}${number2.value}`);
 }
 
