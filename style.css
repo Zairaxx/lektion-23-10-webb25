@@ -1,11 +1,12 @@
-div {
-    display:inline-block;
-    height:150px;
-    width:150px;
-    background:purple;
-    margin: 8px;
+.profile {
+    border:2px solid black;
 }
 
-h2 {
+.summer {
+    background: orangered;
     color:white;
+}
+
+.winter {
+    background:lightblue;
 }
