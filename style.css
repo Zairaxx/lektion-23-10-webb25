@@ -1,0 +1,11 @@
+div {
+    display:inline-block;
+    height:150px;
+    width:150px;
+    background:purple;
+    margin: 8px;
+}
+
+h2 {
+    color:white;
+}
