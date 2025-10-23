@@ -1,3 +1,4 @@
+// Skriva ut värde från en input
 const greetBtn = document.querySelector("#greetBtn");
 const greeting = document.querySelector("#greeting");
 const nameInput = document.querySelector("#name");
@@ -21,7 +22,7 @@ allBtns.forEach(btn => {
     })
 })
 
-//Radio buttions
+// Filtrera baserat på Radio buttons
 
 let filterBtn = document.querySelector("#filter");
 
