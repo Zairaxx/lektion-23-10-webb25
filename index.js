@@ -12,8 +12,8 @@ greetBtn.addEventListener("click", (event) => {
 
 //DOM Traversal
 
-let allBtns = document.querySelectorAll("button");
-
+let allBtns = document.querySelectorAll("div button");
+console.log(allBtns);
 allBtns.forEach(btn => {
     btn.addEventListener("click", (event) => {
         let h2 = event.target.previousElementSibling;

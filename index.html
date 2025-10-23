@@ -6,12 +6,12 @@
     <title>Document</title>
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
 </head>
 <body>
     <h1>DOM - Inputs & Arrays</h1>
     <input type="text" id="name">
     <button id="greetBtn">Klicka här!</button>
-
     <section>
     <div>
         <h2>Div 1</h2>
@@ -43,5 +43,27 @@
     </div>
     </section>
     
+        <h2>Checkboxes & Radio-buttons</h2>
+
+    <!-- Checkboxes -->
+    <input type="radio" name="color" value="blue" id="blue">
+    <label for="blue">Blå</label>
+    <br>
+    <input type="radio" name="color" value="red" id="red">
+    <label for="red">Röd</label>
+    <br>
+    <input type="radio" name="color" value="green" id="green">
+    <label for="green">Grön</label>
+
+    <!-- Checkboxes -->
+     <br>
+     <label for="check1">Nike</label>
+     <input type="checkbox" name="brands" id="check1" value="Nike">
+     <label for="check2">Adidas</label>
+     <input type="checkbox" name="brands" id="check2" value="Adidas">
+     <label for="check3">Puma</label>
+     <input type="checkbox" name="brands" id="check3" value="Puma">
+
+    <button>Filtrera</button>
 </body>
 </html>
