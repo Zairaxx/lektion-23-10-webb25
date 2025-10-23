@@ -26,7 +26,7 @@ allBtns.forEach(btn => {
 let filterBtn = document.querySelector("#filter");
 
 
-btn.addEventListener("click", () => {
+filterBtn.addEventListener("click", () => {
     //Hur vi hittar en vald radio-button 
     let choice = document.querySelector("[name='color']:checked")
     console.log("Vald färg", choice.value);
